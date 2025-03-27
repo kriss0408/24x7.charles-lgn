@@ -1,3 +1,4 @@
+<?php require '/filter.php' ?>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tracking_id = trim($_POST["tracking-id"]);
